@@ -1,0 +1,53 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.header {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+}
+
+.card {
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.card-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {}
+
+.card-date {
+    color: #ccc;
+}
+
+.card-image {}
+.card-image > img {}
+
+.card-content {
+    padding: 15px;
+}
